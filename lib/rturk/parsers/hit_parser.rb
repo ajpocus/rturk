@@ -39,9 +39,9 @@ module RTurk
                   :assignments_duration => 'AssignmentDurationInSeconds',
                   :reward_amount => 'Reward/Amount',
                   :max_assignments => 'MaxAssignments',
-                  :pending_assignments => 'NumberOfAssignmentsPending',
-                  :available_assignments => 'NumberOfAssignmentsAvailable',
-                  :completed_assignments => 'NumberOfAssignmentsCompleted',
+                  :pending_assignments => 'NumberofAssignmentsPending',
+                  :available_assignments => 'NumberofAssignmentsAvailable',
+                  :completed_assignments => 'NumberofAssignmentsCompleted',
                   :auto_approval_delay => 'AutoApprovalDelayInSeconds')
     end
   end
