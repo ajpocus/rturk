@@ -30,7 +30,7 @@
 #     <AutoApprovalDelayInSeconds>3600</AutoApprovalDelayInSeconds>
 #     <Expiration>2009-06-25T05:21:17Z</Expiration>
 #     <AssignmentDurationInSeconds>3600</AssignmentDurationInSeconds>
-#     <NumberOfSimilarHITs>0</NumberOfSimilarHITs>
+#     <NumberofSimilarHITs>0</NumberofSimilarHITs>
 #     <RequesterAnnotation>OptionalNote</RequesterAnnotation>
 #     <QualificationRequirement>
 #       <QualificationTypeId>000000000000000000L0</QualificationTypeId>
@@ -71,10 +71,10 @@ module RTurk
         :reward => 'Reward',
         :lifetime => 'LifetimeInSeconds',
         :annotation => 'RequesterAnnotation',
-        :similar_hits_count => 'NumberOfSimilarHITs',
-        :assignments_pending_count => 'NumberOfAssignmentsPending',
-        :assignments_available_count => 'NumberOfAssignmentsAvailable',
-        :assignments_completed_count => 'NumberOfAssignmentsCompleted'
+        :similar_hits_count => 'NumberofSimilarHITs',
+        :assignments_pending_count => 'NumberofAssignmentsPending',
+        :assignments_available_count => 'NumberofAssignmentsAvailable',
+        :assignments_completed_count => 'NumberofAssignmentsCompleted'
       )
 
       @keywords = @keywords.split(', ') if @keywords

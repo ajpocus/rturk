@@ -28,7 +28,7 @@
     <AutoApprovalDelayInSeconds>3600</AutoApprovalDelayInSeconds>
     <Expiration>2009-06-25T05:21:17Z</Expiration>
     <AssignmentDurationInSeconds>3600</AssignmentDurationInSeconds>
-    <NumberOfSimilarHITs>0</NumberOfSimilarHITs>
+    <NumberofSimilarHITs>0</NumberofSimilarHITs>
     <RequesterAnnotation>OptionalNote</RequesterAnnotation>
     <QualificationRequirement>
       <QualificationTypeId>000000000000000000L0</QualificationTypeId>

@@ -21,9 +21,9 @@ describe RTurk::HITParser do
   <AutoApprovalDelayInSeconds>2592000</AutoApprovalDelayInSeconds>
   <Expiration>2009-07-14T00:56:40Z</Expiration>
   <AssignmentDurationInSeconds>30</AssignmentDurationInSeconds>
-  <NumberOfAssignmentsPending>0</NumberOfAssignmentsPending>
-  <NumberOfAssignmentsAvailable>1</NumberOfAssignmentsAvailable>
-  <NumberOfAssignmentsCompleted>0</NumberOfAssignmentsCompleted>
+  <NumberofAssignmentsPending>0</NumberofAssignmentsPending>
+  <NumberofAssignmentsAvailable>1</NumberofAssignmentsAvailable>
+  <NumberofAssignmentsCompleted>0</NumberofAssignmentsCompleted>
 </HIT>
       XML
     @hit_xml = Nokogiri::XML(@hit_xml)
